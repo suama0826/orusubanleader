@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #eaf4fc;
+}
+
+
+.header-logo {
+    font-size: 48px;
+    background-color: #008080;
+    width: 550px;
+    margin: 10px auto;
+    border-radius: 10px;
+    padding: 7px;
+    text-align: center;
+    color: white;
+}
+
+#leader {
+    width: 300px;
+    height: 300px;
+    margin-top: 10px;
+    border-radius: 30px
+}
+
+.orusuban {
+    text-align: center;
+}
+
+#btn {
+    font-size: 32px;
+    background-color: #008080;
+    width: 150px;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 7px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 5px rgba(0, 102, 102, 0.5);
+}
+
+#btn:active {
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+}
+
+.main-text {
+    font-size: 24px;
+    text-align: center;
+}
+
+#results {
+    font-size: 32px;
+    text-align: center;
+    color: #008080;
+}
