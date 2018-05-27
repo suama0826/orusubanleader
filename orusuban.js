@@ -5,15 +5,15 @@
     var results = document.getElementById("results");
 
     btn.addEventListener("click", function() {
-        var orusubanLeader = ["ramune001.jpg",
-                              "ramune002.jpg",
-                              "ramune003.jpg",
-                              "potato001.jpg",
-                              "potato002.jpg",
-                              "potato003.jpg",
-                              "nasubi001.jpg",
-                              "nasubi002.jpg",
-                              "nasubi003.jpg"];
+        var orusubanLeader = ["ramune001.JPG",
+                              "ramune002.JPG",
+                              "ramune003.JPG",
+                              "potato001.JPG",
+                              "potato002.JPG",
+                              "potato003.JPG",
+                              "nasubi001.JPG",
+                              "nasubi002.JPG",
+                              "nasubi003.JPG"];
         var n = Math.floor(Math.random() * orusubanLeader.length);
         document.getElementById("leader").src = orusubanLeader[n];
         if (n >=0 && n <= 2) {
